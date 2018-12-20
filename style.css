@@ -1,0 +1,58 @@
+body{
+background:url("https://images.pexels.com/photos/1425299/pexels-photo-1425299.jpeg?cs=srgb&dl=background-blurred-background-bubbles-1425299.jpg&fm=jpg");
+background-repeat: no-repeat;
+}
+.audio-player-cont{
+  width:600px;
+  height: 500px;
+  background:black;
+  box-shadow: 0 0 15px 15px black;
+  color: #eeeeee;
+  font-family: verdana;
+  font-size: 12px;
+  border-radius: 50px;
+ border:2px solid black;
+ text-align: center;
+ margin: 0px auto;
+ padding: 10px 50px 50px 50px;
+ c
+}
+.logo{
+   padding: 50px 250px 50px 200px;
+  float: left;
+}
+.player{
+
+  float: right;
+  margin: 7px;
+}
+.song-title{
+  width:300px;
+  padding:5px 145px 5px 115px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+.songSlider{
+  width: 300px;
+}
+.current-time{
+  float: left;
+  font-size: 29px;
+  font-family: 'Indie Flower', cursive;
+}
+.duration{
+  float: right;
+  font-size: 29px;
+  font-family: 'Indie Flower', cursive;
+}
+.controllers{
+  clear:both;
+  display: table;
+  padding: 0px 150px 0px 150px
+}
+.controllers{
+  vertical-align: middle;
+}
